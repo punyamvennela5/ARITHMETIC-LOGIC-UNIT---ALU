@@ -1,8 +1,8 @@
 # ARITHMETIC-LOGIC-UNIT---ALU
-Name: P VENNELA
-Company: CODTECH IT SOLUTIONs
-ID:CT06DL125
-Domain: VLSI
+*Name: P VENNELA
+*Company: CODTECH IT SOLUTIONs
+*ID:CT06DL125
+*Domain: VLSI
 
 
 ### Introduction to 8-bit Arithmetic Logic Unit (8-bit ALU)

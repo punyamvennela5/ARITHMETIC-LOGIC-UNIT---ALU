@@ -1,0 +1,46 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 06/10/2025 12:43:08 AM
+// Design Name: 
+// Module Name: ALU_operation_tb
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module ALU_operation_tb();
+    reg [7:0]in_a,in_b;
+    reg [4:0]opcode;
+    wire [7:0]alu_result;
+    wire carry_flag;
+ALU_operation uut(alu_result,carry_flag,in_a,in_b,opcode);
+initial
+begin
+    in_a=8'b00000010;in_b=8'b00000001;
+    opcode=5'b00000;
+    while(opcode<=5'b11111)
+    begin
+        #20;opcode=opcode+1;
+    end
+    #20;
+     in_a=8'b10000010;in_b=8'b10000001;
+    opcode=5'b00000;
+    while(opcode<=5'b11111)
+    begin
+        #20;opcode=opcode+1;
+    end
+    #20;
+end
+endmodule

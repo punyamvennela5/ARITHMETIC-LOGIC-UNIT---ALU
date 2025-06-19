@@ -1,4 +1,10 @@
 # ARITHMETIC-LOGIC-UNIT---ALU
+# Name: P VENNELA
+# Company: CODTECH IT SOLUTION
+# ID:CT06DL125
+# Domain: VLSI
+
+
 ### Introduction to 8-bit Arithmetic Logic Unit (8-bit ALU)
 
 An **8-bit Arithmetic Logic Unit (8-bit ALU)** is a digital circuit designed to perform arithmetic and logic operations on 8-bit binary numbers. It is a core component of 8-bit microprocessors and plays a critical role in executing instructions in many embedded systems and early computing architectures.
